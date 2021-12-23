@@ -211,7 +211,7 @@
       var link = button.data('id')
 
       var modal = $(this)
-      modal.find('.modal-body input#link').val("https://localhost/survey/question_answer.php?id=" + link)
+      modal.find('.modal-body input#link').val("http://152.67.112.104:8000/question_answer.php?id=" + link)
     });
   });
 
